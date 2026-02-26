@@ -18,7 +18,7 @@ sleep 1s
 cd openbox
 sudo cp clear.sh /opt && sudo cp log.sh /opt && sudo cp upgrade.sh /opt
 sleep 1s
-cp autostart /home/zx/.config/openbox && cp menu.xml /home/zx/.config/openbox && cp rc.xml /home/zx/.config/openbox && cp as.txt /home/zx && cp ReadMe.txt /home/zx
+cp menu.xml /home/zx/.config/openbox && cp rc.xml /home/zx/.config/openbox && cp as.txt /home/zx && cp ReadMe.txt /home/zx
 sleep 1s
 mv conkyrc /home/zx/.conkyrc && mv xxkbrc /home/zx/.xxkbrc && mv xrandr.sh /home/zx/.xrandr.sh && cd ..
 sleep 1s
