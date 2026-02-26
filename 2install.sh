@@ -8,7 +8,7 @@ sleep 2s
 echo "${RED}Незакрывайте ${YELLOW}идёт загрузка и ${NOCOLOR}обновление системы!!"
 sleep 2s
 sudo cp debian.list /etc/apt/sources.list.d && sudo apt update
-sudo apt install -y xserver-xorg xinit lightdm mousepad connman connman-gtk gparted picom nitrogen tint2 openbox obconf obsession linux-headers-$(dpkg --print-architecture) lxrandr lxappearance bleachbit terminology thunar pkexec lxpolkit polkitd xxkb conky-std neowofetch xarchiver thunar-archive-plugin ufw xfce4-screenshooter geany geany-common
+sudo apt install -y xserver-xorg xinit lightdm mousepad connman connman-gtk gparted picom nitrogen openbox obconf polybar rofi dunst obsession linux-headers-$(dpkg --print-architecture) lxrandr lxappearance bleachbit terminology thunar pkexec lxpolkit polkitd xxkb conky-std neowofetch xarchiver thunar-archive-plugin ufw xfce4-screenshooter geany geany-common
 sleep 1s
 echo "${YELLOW}Не спешите ${RED}идёт установка ${NOCOLOR}примерно 8 сек.!!"
 sudo apt autoclean && sudo apt autoremove -y
